@@ -1,0 +1,15 @@
+C:\Users\timot\GC\C# Repositories\DiceRoller\obj\Debug\net6.0\DiceRoller.csproj.AssemblyReference.cache
+C:\Users\timot\GC\C# Repositories\DiceRoller\obj\Debug\net6.0\DiceRoller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timot\GC\C# Repositories\DiceRoller\obj\Debug\net6.0\DiceRoller.AssemblyInfoInputs.cache
+C:\Users\timot\GC\C# Repositories\DiceRoller\obj\Debug\net6.0\DiceRoller.AssemblyInfo.cs
+C:\Users\timot\GC\C# Repositories\DiceRoller\obj\Debug\net6.0\DiceRoller.csproj.CoreCompileInputs.cache
+C:\Users\timot\GC\C# Repositories\DiceRoller\bin\Debug\net6.0\DiceRoller.exe
+C:\Users\timot\GC\C# Repositories\DiceRoller\bin\Debug\net6.0\DiceRoller.deps.json
+C:\Users\timot\GC\C# Repositories\DiceRoller\bin\Debug\net6.0\DiceRoller.runtimeconfig.json
+C:\Users\timot\GC\C# Repositories\DiceRoller\bin\Debug\net6.0\DiceRoller.dll
+C:\Users\timot\GC\C# Repositories\DiceRoller\bin\Debug\net6.0\DiceRoller.pdb
+C:\Users\timot\GC\C# Repositories\DiceRoller\obj\Debug\net6.0\DiceRoller.dll
+C:\Users\timot\GC\C# Repositories\DiceRoller\obj\Debug\net6.0\refint\DiceRoller.dll
+C:\Users\timot\GC\C# Repositories\DiceRoller\obj\Debug\net6.0\DiceRoller.pdb
+C:\Users\timot\GC\C# Repositories\DiceRoller\obj\Debug\net6.0\DiceRoller.genruntimeconfig.cache
+C:\Users\timot\GC\C# Repositories\DiceRoller\obj\Debug\net6.0\ref\DiceRoller.dll
