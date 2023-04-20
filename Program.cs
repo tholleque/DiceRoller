@@ -88,7 +88,7 @@ namespace DiceRoller
             {
                 return "Snake Eyes!";
             }
-            else if (d2 == 6 && d2 == 6)
+            else if (d1 == 6 && d2 == 6)
             {
                 return ("Box Cars!");
             }
