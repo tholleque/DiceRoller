@@ -29,7 +29,7 @@ namespace DiceRoller
                         Console.WriteLine("Please try again, only valid integers may be entered.");
                     }
 
-                    if (roll < 0 || roll > 20)
+                    if (roll < 4 || roll > 20)
                     {
                         Console.WriteLine("We only have dice with sides in the range of 4 to 20");
                         Console.WriteLine("Please enter a number within the range:");
@@ -45,7 +45,7 @@ namespace DiceRoller
                 if (roll == 6)
                 {
                     Console.WriteLine(SixSidedCombos(d1, d2));
-                    Console.WriteLine((SixedSidedWins(total))); ;
+                    Console.WriteLine(SixedSidedWins(total)); ;
                 }
                 goOn = Continue();
             }
@@ -56,7 +56,8 @@ namespace DiceRoller
         public static int DiceRoll(int sides)
         {
             Random r = new Random();
-            return r.Next(1, sides);
+            // min is inclusive, max is exclusive 
+            return r.Next(1, sides + 1);
         }
         public static bool Continue()
         {
