@@ -10,7 +10,7 @@ namespace DiceRoller
             Console.WriteLine("Welcome to the dice Roller!");
             Console.WriteLine();
             bool goOn = true;
-            while (goOn == true)
+            while (goOn)
             {
                 Console.WriteLine("Please select the dice you wish to roll by entering a number (our dice range from D4 to D20):");
                 bool tryRoll = false;
@@ -33,7 +33,7 @@ namespace DiceRoller
                     {
                         Console.WriteLine("We only have dice with sides in the range of 4 to 20");
                         Console.WriteLine("Please enter a number within the range:");
-                        tryRoll = false;
+                        tryRoll = false; 
                     }
                 }
                 int d1 = DiceRoll(roll);
@@ -46,6 +46,11 @@ namespace DiceRoller
                 {
                     Console.WriteLine(SixSidedCombos(d1, d2));
                     Console.WriteLine(SixedSidedWins(total)); ;
+                }
+                else if (roll == 20)
+                {
+                    Console.WriteLine(CheckDndRolls(d1));
+                    Console.WriteLine(CheckDndRolls(d2));
                 }
                 goOn = Continue();
             }
@@ -115,6 +120,21 @@ namespace DiceRoller
             else if (total == 2 || total == 3 || total == 12)
             {
                 return ("Craps!");
+            }
+            else
+            {
+                return "";
+            }
+        }
+        public static string CheckDndRolls(int roll)
+        {
+            if (roll == 20)
+            {
+                return "Critical Hit!";
+            }
+            else if (roll == 1)
+            {
+                return "Critical Miss!";
             }
             else
             {
